@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R3-AT2_LOPAL ex4"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-14 08:40:48 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTkdOVEI3NzQ7MjAyNS0wNC0wNzsiMTI6NDc6MjcgIjsyNjYx"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTkdOVEI3NzQ7MjAyNS0wNC0xNDsiMDg6NDA6NDggIjs0OzI3NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="desconto, valorTotal" type="Real" array="False" size=""/>
+            <comment text="cria&#231;&#227;o das vari&#225;veis Reais &quot;valorTotal&quot; e &quot;desconto&quot;"/>
+            <output expression="&quot;Insira o valor da sua compra&quot;" newline="True"/>
+            <input variable="valorTotal"/>
+            <assign variable="desconto" expression="valorTotal*0.1"/>
+            <comment text="atribui&#231;&#227;o de valor da vari&#225;vel &quot;desconto&quot;"/>
+            <if expression="valorTotal &gt;= 100">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; ganhou: 10% de desconto. O valor total da sua compra deu&quot;&amp;valorTotal&amp;&quot;. Seu desconto &#233; de: &quot;&amp;valorTotal*0.1&amp;&quot; Totalizando sua compra em: &quot;&amp;valorTotal-desconto" newline="True"/>
+                    <comment text="Analisa se o valor inserido &#233; maior que 100, caso ele seja, o usu&#225;rio &#233; avisado que ganhou 10% de desconto na compra, mostrando o valor total e o valor com desconto"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

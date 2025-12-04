@@ -1,0 +1,3 @@
+let nome =prompt("digite seu nome:"); // variável nome receberá o nome do usuário e o comando prompt servirá como uma string com o nome do usuário
+let idade =parseInt(prompt("digite sua idade:")); // a variável idade receberá a idade do usuário, o comando prompt será parseado(convertido) em um valor numérico inteiro
+let dolar =parseFloat(prompt("digite sua quantia em dólar(US$)")); // a variável dolar será para receber a quantia do usuário em dólar, o comando prompt receberá uma string que será convertido em float

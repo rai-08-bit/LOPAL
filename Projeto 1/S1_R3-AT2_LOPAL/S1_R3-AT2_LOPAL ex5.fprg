@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R3-AT2_LOPAL ex5"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-14 08:42:27 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTkdOVEI3NzQ7MjAyNS0wNC0wNzsiMDE6MDc6NTYgIjsyNjU3"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTkdOVEI3NzQ7MjAyNS0wNC0xNDsiMDg6NDI6MjcgIjsyOzI3Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Real" array="False" size=""/>
+            <comment text="Cria&#231;&#227;o da vari&#225;vel inteira &quot;num&quot;"/>
+            <output expression="&quot;Insira um n&#250;mero&quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num % 5 == 0">
+                <then>
+                    <output expression="&quot;Seu n&#250;mero &#233; m&#250;ltiplo de 5&quot;" newline="True"/>
+                    <comment text="Analisa se o valor inserido tem seu resultado no m&#243;dulo por 5 igual a 0, caso o m&#243;dulo seja igual a 0, o n&#250;mero inserido &#233; m&#250;ltiplo de 5"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

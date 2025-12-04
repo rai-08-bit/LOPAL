@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R3-AT2_LOPAL ex1"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-14 08:35:33 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTkdOVEI3NzQ7MjAyNS0wNC0wNzsiMTI6Mjk6NTggIjsyNjY1"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTkdOVEI3NzQ7MjAyNS0wNC0xNDsiMDg6MzU6MzMgIjszOzI3Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <comment text="Cria&#231;&#227;o da vari&#225;vel Real &quot;num&quot;"/>
+            <output expression="&quot;Insira um n&#250;mero&quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num &gt; 0">
+                <then>
+                    <output expression="&quot;seu n&#250;mero &#233; positivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Seu n&#250;mero &#233; negativo&quot;" newline="True"/>
+                </else>
+            </if>
+            <comment text="Analisa se o valor inserido &#233; um n&#250;mero, caso seja, o valor &#233; validado e ele identifica se &#233; um n&#250;mero positivo ou negativo, caso seja positivo, a p&#225;gina avisa que o n&#250;mero digitado &#233; positivo.&#13;&#10;Caso o n&#250;mero seja negativo, a p&#225;gina avisa que o n&#250;mero &#233; negativo"/>
+        </body>
+    </function>
+</flowgorithm>

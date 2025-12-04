@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R3-AT2_LOPAL ex3"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-14 08:39:04 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTkdOVEI3NzQ7MjAyNS0wNC0wNzsiMTI6NDI6NDUgIjsyNjU2"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTkdOVEI3NzQ7MjAyNS0wNC0xNDsiMDg6Mzk6MDQgIjsyOzI3Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <comment text="Cria&#231;&#227;o da v&#225;riavel real &quot;num&quot;&#13;&#10;"/>
+            <output expression="&quot;Insira um n&#250;mero&quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num % 2 == 0">
+                <then>
+                    <output expression="&quot;Seu n&#250;mero &#233; par&quot;" newline="True"/>
+                    <comment text="Analisa se o m&#243;dulo do valor inserido e dividido por 2 d&#225; 0, caso o m&#243;dulo seja igual 0, o n&#250;mero &#233; par"/>
+                </then>
+                <else>
+                    <output expression="&quot;Seu n&#250;mero &#233; &#237;mpar&quot;" newline="True"/>
+                    <comment text=" Analisa se o m&#243;dulo do valor inserido e dividido por 2 d&#225; 0, caso o m&#243;dulo n&#227;o seja igual 0, o n&#250;mero &#233; &#237;mpar"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
